@@ -77,7 +77,7 @@ def DesenhaPernaDir():
     t.pu()
     t.setpos(-160,10)
     t.pd()
-    t.left(50)
+    t.left(50)ç
     t.fd(60)
     t.right(50)
    
@@ -93,9 +93,13 @@ def DesenhaTudo():
     DesenhaBracoDir()
     DesenhaPernaEsq()
     DesenhaPernaDir()
-    DesenhaEspacos()
+    #DesenhaEspacos()
     
-DesenhaTudo()
+    
+    
+
+DesenhaForca()  
+#DesenhaTudo()
     
 
 
